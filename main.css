@@ -1,6 +1,15 @@
-nav{
+.navigation-bar{
+    width: auto;
+    height: 50px;
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+.logo{
+    position: absolute;
+    left: -2px;
 }
 
 .header-one{
@@ -12,9 +21,41 @@ nav{
     padding-left: 10px;
 }
 
-.footer{
+.container{
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: large;
+}
+
+.main-title {
+    position: absolute;
+    top: 30%;
+    padding: 5px;
+}
+
+.subtitle{
+    position: absolute;
+    top: 60%;
+    padding: 5px;
+
+}
+
+.btn-hp{
+    position: absolute;
+    top: 80%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin: 4px 2px;
+}
+
+.btn-1{
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 50px;
+}
+
+.removinglink{
+    text-decoration: none;
+    color: inherit;
 }
