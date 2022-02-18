@@ -12,6 +12,12 @@
     left: -2px;
 }
 
+.navigation-item{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .header-one{
     padding-left: 10px;
 }
