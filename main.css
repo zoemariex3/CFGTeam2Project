@@ -1,0 +1,80 @@
+.navigation-bar{
+    width: auto;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    left: -2px;
+}
+
+.navigation-item{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation-item:hover{
+background-color:lightslategrey;
+}
+
+
+.header-one{
+    padding-left: 10px;
+}
+.myimage{
+    float: left;
+    padding-right: 10px ;
+    padding-left: 10px;
+}
+
+.container{
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: large;
+}
+
+.main-title {
+    position: absolute;
+    top: 30%;
+    padding: 5px;
+}
+
+.subtitle{
+    position: absolute;
+    top: 60%;
+    padding: 5px;
+
+}
+
+.btn-hp{
+    position: absolute;
+    top: 80%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin: 4px 2px;
+}
+
+.btn-1{
+    background-color: black;
+    color: white;
+}
+
+.removinglink{
+    text-decoration: none;
+    color: inherit;
+}
+
+#contactform{
+width: 300px;
+height: 250px;
+padding-top: 30px;
+padding-left: 10px;
+border: solid;
+}
