@@ -116,3 +116,19 @@ border: solid;
         width: 100%;
     }
 }
+
+.end{
+    background-color: #C4C4C4;
+    text-align: center;
+    padding: 10px;
+}
+
+.footeritem{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.copyright{
+    font-size: smaller;
+}
