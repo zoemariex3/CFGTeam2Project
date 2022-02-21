@@ -102,3 +102,33 @@ border: solid;
     padding-bottom: 1px;
     margin: 20px;
 }
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.end{
+    background-color: #C4C4C4;
+    text-align: center;
+    padding: 10px;
+}
+
+.footeritem{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.copyright{
+    font-size: smaller;
+}
