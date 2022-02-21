@@ -3,6 +3,10 @@ nav{
     justify-content: space-between;
 }
 
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
 .header-one{
     padding-left: 10px;
 }
