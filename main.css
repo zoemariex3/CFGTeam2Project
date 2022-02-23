@@ -18,20 +18,11 @@
     font-weight: bold;
 }
 
-.navigation-item:hover{
-background-color:lightslategrey;
-}
-
 body{
     font-family: 'Public Sans', sans-serif;
 }
 
 .header-one{
-    padding-left: 10px;
-}
-.myimage{
-    float: left;
-    padding-right: 10px ;
     padding-left: 10px;
 }
 
@@ -52,26 +43,32 @@ body{
     position: absolute;
     top: 60%;
     padding: 5px;
-
+    font-size: medium;
 }
 
 .btn-hp{
     position: absolute;
     top: 80%;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    margin: 4px 2px;
 }
 
 .btn-1{
     background-color: black;
     color: white;
+    font-size: medium;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid;
 }
 
 .removinglink{
     text-decoration: none;
     color: inherit;
+}
+
+.home-text{
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
 }
 
 #contactform{
@@ -84,6 +81,7 @@ border: solid;
 
 .section2Title {
     text-align: center;
+    padding-top: 20px;
 
 }
 
@@ -104,6 +102,10 @@ border: solid;
     padding-top: 1px;
     padding-bottom: 1px;
     margin: 20px;
+}
+
+.section3title{
+    padding-top: 20px;
 }
 
 .row {
@@ -133,5 +135,26 @@ border: solid;
 }
 
 .copyright{
-    font-size: smaller;
+    font-size: xx-small;
+}
+
+.profile-container{
+    margin: 20px 20px 0 0 ;
+    border: 5px none;
+    overflow: auto;
+}
+
+.profile-image{
+    float: left;
+}
+
+.profile-content{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.quote{
+    font-size: small;
+    text-align: center;
+    padding: 5px;
 }
