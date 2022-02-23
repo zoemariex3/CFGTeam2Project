@@ -1,24 +1,32 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
 
-body{
+body {
     font-family: 'Public Sans', sans-serif;
 }
 
-.header-one{
+.header-one {
     padding-left: 10px;
 }
-.myimage{
+.gracehopperPhoto {
     float: left;
     padding-right: 10px ;
     padding-left: 10px;
 }
 
-.footer{
+.footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 50px;
+}
+
+.topSection {
+    float: left;
+}
+
+.bio{
+    float: left;
 }
