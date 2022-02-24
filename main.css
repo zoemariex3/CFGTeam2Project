@@ -232,3 +232,8 @@ border: solid;
 .bottom-padding {
     padding-bottom:50px;
 }
+
+.hero-image{
+    width: 100%;
+}
+
