@@ -10,14 +10,26 @@
 </head>
 <body>
     <!-- This is the nav bar  -->
-    <nav class="navigation-bar"> 
+    <nav class="navigation-bar">
         <div class="logo">
             <img src="/Assets/logo.png" alt="logo" height="50px" width="50px">
         </div>
-        <a href="home.html" class="navigation-item"> Home </a>
-        <a href="featurestories.html"class="navigation-item"> Feature Stories </a> 
-        <a href="resources.html"class="navigation-item"> Get Involved</a>
-        <a href="contact.html"class="navigation-item"> Contact </a>
+    <div class="navbar">
+        <a href="Home.html" class="navigation-item">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Feature Stories 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Profile 1</a>
+            <a href="#">Profile 2</a>
+            <a href="#">Profile 3</a>
+            <a href="#">Profile 4</a>
+        </div>
+        </div> 
+        <a href="Resources" class="navigation-item">Resources</a>
+        <a href="contact.html" class="navigation-item">Contact </a>
+    </div>
     </nav>
 
     <!-- This is the hero image and elements, using placeholder -->
