@@ -57,7 +57,6 @@ body{
     color: white;
     font-size: medium;
     border-radius: 30px;
-    padding: 10px;
     border: solid;
 }
 
@@ -92,7 +91,6 @@ border: solid;
 }
 
 .section2paragraph {
-    text-align: center;
     padding-right:5px;
     padding-left: 5px;
     padding-top: 5px;
@@ -237,3 +235,6 @@ border: solid;
     width: 100%;
 }
 
+.headingpage3{
+    text-align: center;
+}
