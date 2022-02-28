@@ -112,7 +112,7 @@ body{
 .feature-stories-padding{
     padding-left: 10px;
 }
-
+/* Button styling */
 .btn-hp{
     position: absolute;
     top: 80%;
@@ -124,6 +124,25 @@ body{
     font-size: medium;
     border-radius: 30px;
     border: solid;
+}
+
+/* Get involved page button */
+.btn-2{
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    border-radius: 30px;
+    border: solid;
+    padding: 15px 32px;
+    font-family: inherit;
+    cursor: pointer;
+    
+}
+
+.btn-2:hover {
+    background-color: white;
+    color: black;
+    
 }
 
 .removinglink{
