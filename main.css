@@ -304,3 +304,11 @@ border: solid;
 .headingpage3{
     text-align: center;
 }
+
+/* Get involved CSS */
+
+.getinvolved-heading {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
