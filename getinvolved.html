@@ -8,28 +8,37 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!-- This is the nav bar  -->
+  <!-- This is the nav bar  -->
     <nav class="navigation-bar">
-      <div class="logo">
-          <img src="/Assets/logo.png" alt="logo" height="50px" width="50px">
+        <div class="logo">
+            <img src="/Assets/logo.png" alt="logo" height="50px" width="50px">
+        </div>
+        <div class="navbar">
+          <a href="Home.html" class="navigation-item">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Feature Stories 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/Profile3.html">Katherine Johnson</a>
+                <a href="/profile4.html">Grace Hopper</a>
+                <a href="/profile2.html">Anita Borg</a>
+                <a href="/Profile1.html">Annie Easely</a>
+            </div>
+          </div> 
+          <a href="Resources" class="navigation-item">Get Involved</a>
+          <a href="contact.html" class="navigation-item">Contact </a>
       </div>
-  <div class="navbar">
-      <a href="Home.html" class="navigation-item">Home</a>
-      <div class="dropdown">
-      <button class="dropbtn">Feature Stories 
-          <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-          <a href="/Profile3.html">Katherine Johnson</a>
-          <a href="/profile4.html">Grace Hopper</a>
-          <a href="/profile2.html">Anita Borg</a>
-          <a href="/Profile1.html">Annie Easely</a>
-      </div>
-      </div> 
-      <a href="Resources" class="navigation-item">Get Involved</a>
-      <a href="contact.html" class="navigation-item">Contact </a>
-  </div>
-  </nav>
-    <h1 class="getinvolved-heading"> Will you #Breakthebias?</h1>
+    </nav>
+    <h1 class="getinvolved-heading"> Will you <i>#Breakthebias?</i> </h1>
+
+  <!-- This is the main content -->
+  
+  <!-- Button for international women's day -->
+  <form action="https://www.internationalwomensday.com/2022Theme">
+  <button class="btn-2" type="submit">Find out more</button>
+  </form>
+
+  <button onclick="document.location='https:/www.internationalwomensday.com/2022Theme'" class="btn-2" type="submit">Find out more</button>
 </body>
 </html>
