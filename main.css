@@ -20,6 +20,7 @@
 }
 
 .navbar {
+    display:flex
     overflow: hidden;
     background-color: white;
   }
@@ -239,17 +240,10 @@ border: solid;
     }
   }
 
-  /* If screen size is more than 600px wide, set the font-size of <div> to 80px */
-@media screen and (min-width: 600px) {
-    div.example {
-      font-size: 80px;
-    }
-  }
-  
-  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
     }
   }
 
