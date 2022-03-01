@@ -308,6 +308,7 @@ border: solid;
 
 .hover_image{
     position: relative;
+    width: 100px;
 }
 
 .image_img{
@@ -336,7 +337,7 @@ border: solid;
 }
 
 .image-title{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .footer-email-form h2 {
