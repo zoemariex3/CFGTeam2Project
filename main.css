@@ -135,7 +135,7 @@ body{
     font-size: x-large;
     border-radius: 30px;
     border: solid;
-    padding: 15px 30px;
+    padding: 15px 30px; 
     font-family: inherit;
     cursor: pointer;
     display: flex;
@@ -144,6 +144,16 @@ body{
     margin:auto;
 }
 
+.find-out-more-btn{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
 .btn-2:hover {
     background-color: white;
     color: #C4C4C4;
@@ -151,6 +161,8 @@ body{
 }
 
 /* Get involved page css */
+
+/*galley image section*/
 .gallery {
     display: grid;
     grid-template-columns: repeat(16);
@@ -160,7 +172,9 @@ body{
 
 .gallery__img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    width: 200px;
+    height: 
 }
 
 .gallery__img {
@@ -173,31 +187,53 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     width: 200px;
+    max-height:min-content;
 }
 
 .gallery__item--2 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
     width: 200px;
+    max-height: min-content;
+    
 }
 
 .gallery__item--3 {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     width: 200px;
+    border-radius: 10%;
+    
 }
 
 .gallery__item--4 {
     grid-column-start: 2;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     width: 200px;
 }
+
+/*main section get involved*/
+.main-section {
+  background-color: #C4C4C4;
+  margin:10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.gallery {
+      
+    background-color: white;
+    margin: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/*end of main section styling*/
 
 .removinglink{
     text-decoration: none;
@@ -279,6 +315,7 @@ border: solid;
     background-color: #C4C4C4;
     text-align: center;
     padding: 25px;
+    margin: 10px
 }
 
 .footeritem{
