@@ -430,7 +430,11 @@ border: solid;
 }
 
 .image-title{
-    font-size: 1rem;
+    font-size: 1rem 10vw;
+}
+
+.image-description {
+    font-size: 0.5rem 10vw;
 }
 
 .footer-email-form h2 {
