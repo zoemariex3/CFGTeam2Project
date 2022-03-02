@@ -401,12 +401,12 @@ border: solid;
 
 .hover_image{
     position: relative;
-    width: 100px;
+    max-width: 100%;
 }
 
 .image_img{
     display:block;
-    width: 100px;
+    max-width: 100%;
 }
 
 .overlay{
