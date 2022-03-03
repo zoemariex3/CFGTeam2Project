@@ -99,7 +99,6 @@
     color: white;
   }
 
-
 body{
     font-family: 'Public Sans', sans-serif;
     margin: 10px;
@@ -168,7 +167,6 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    
 }
 
 
@@ -179,6 +177,10 @@ body{
 }
 
 /* Get involved page css */
+
+.getInvolvedContainer {
+display: flex;
+}
 
 /*gallery image section*/
 .gallery {
@@ -196,8 +198,14 @@ body{
 }
 
 .gallery__img {
-    border-radius: 10%;
-}
+    max-height: fit-content;
+    float: left;
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8%
+
+};
 
 .gallery__item--1 {
     grid-column-start: 1;
@@ -224,7 +232,6 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     width: 200px;
-    border-radius: 10%;
     
 }
 
